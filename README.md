@@ -24,8 +24,6 @@ Sample 9 characters Password Generated.
 ![Screenshots](https://github.com/lightdarkmaster/Password-Generator/blob/master/Screenshots/pic1.png)
 
 @DECEMBER 16, 2023
-#$$***************************************************************************$$
-#$$***************************** ALL RIGHTS RESERVE **************************$$
-#$$***************************** NOTHING FOLLOWS *****************************$$
-#$$***************************************************************************$$
+# All Rights Reserved
+# --> Nothing Follows <--
 
