@@ -10,11 +10,14 @@ resources from google.com;
 
 Christian Barbosa - BSIT-AI41;
 
+# 1. Code
 ![Screenshots](https://github.com/lightdarkmaster/Password-Generator/blob/master/Screenshots/pic2.png)
-
+# 2. User Interface (UI)
 ![Screenshots](https://github.com/lightdarkmaster/Password-Generator/blob/master/Screenshots/pic3.png)
-
+# 3. Adjustable Length of Characters of password. (Using Dropdown Menu).
+Sample 9 characters Password Generated.
 ![Screenshots](https://github.com/lightdarkmaster/Password-Generator/blob/master/Screenshots/pic4.png)
+# 4. Sample 20 characters Password Generated.
 
 ![Screenshots](https://github.com/lightdarkmaster/Password-Generator/blob/master/Screenshots/pic1.png)
 
