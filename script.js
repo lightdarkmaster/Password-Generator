@@ -29,3 +29,12 @@ function generateAndDisplayPassword() {
 document.getElementById('numbers').addEventListener('change', function () {
     generateAndDisplayPassword();
 });
+
+//this code here to clear.
+function clearButton() {
+    clear();
+}
+
+function clear(){
+    document.getElementById("password").value="";
+}
