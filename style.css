@@ -86,8 +86,86 @@ p{
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.container1 {
+    position: relative;
+    top: 100px;
+    width: 40%;
+    height: 80%;
+    border: 0;
+    box-shadow: 2px 2px 3px 2px rgb(253, 14, 173);
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, rgba(70, 131, 180, 0.567),rgba(255, 112, 112, 0.228),rgba(255, 112, 112, 0.228), rgba(173, 216, 230, 0.528));
+}
+#plaintext1{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: 0;
+    padding: 5px
+}
+#key1{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: 0;
+    padding: 5px
+}
+#encrypted1{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: 0;
+    padding: 5px
+}
+.ebutton{
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    background: rgb(34, 231, 231);
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    cursor:pointer;
+    box-shadow: 2px 2px 2px 1px rgba(57, 44, 44, 0.509);
+    transition: background 10.5s ease; 
+}
+.dbutton{
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    background: rgb(231, 34, 208);
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    cursor:pointer;
+    box-shadow: 2px 2px 2px 1px rgba(57, 44, 44, 0.509);
+    transition: background 10.5s ease; 
+}
 
-
+.cbutton{
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    background: rgb(231, 198, 34);
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    cursor:pointer;
+    box-shadow: 2px 2px 2px 1px rgba(57, 44, 44, 0.509);
+    transition: background 10.5s ease; 
+}
 
 /* Media query for small screens (e.g., smartphones) */
 @media screen and (min-width: 301px) and (max-width: 701px) {
@@ -149,5 +227,85 @@ p{
         font-size: 12px;
         cursor:pointer;
         box-shadow: 2px 2px 2px 1px rgba(57, 44, 44, 0.509);
+    }
+    .container1 {
+        position: relative;
+        top: 100px;
+        width: 95%;
+        height: 80%;
+        border: 0;
+        box-shadow: 2px 2px 3px 2px rgb(253, 14, 173);
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        border-radius: 20px;
+        background: linear-gradient(to bottom right, rgba(70, 131, 180, 0.567),rgba(255, 112, 112, 0.228),rgba(255, 112, 112, 0.228), rgba(173, 216, 230, 0.528));
+    }
+    #plaintext1{
+        width: 60%;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        outline: 0;
+        padding: 5px
+    }
+    #key1{
+        width: 60%;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        outline: 0;
+        padding: 5px
+    }
+    #encrypted1{
+        width: 60%;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        outline: 0;
+        padding: 5px
+    }
+    .ebutton{
+        height: 35px;
+        width: 20%;
+        border-radius: 10px;
+        padding: 5px;
+        color: black;
+        background: rgb(34, 231, 231);
+        outline: 0;
+        border: 0;
+        font-weight: 500;
+        cursor:pointer;
+        box-shadow: 2px 2px 2px 1px rgba(57, 44, 44, 0.509);
+        transition: background 10.5s ease; 
+    }
+    .dbutton{
+        height: 35px;
+        width: 20%;
+        border-radius: 10px;
+        padding: 5px;
+        color: black;
+        background: rgb(231, 34, 208);
+        outline: 0;
+        border: 0;
+        font-weight: 500;
+        cursor:pointer;
+        box-shadow: 2px 2px 2px 1px rgba(57, 44, 44, 0.509);
+        transition: background 10.5s ease; 
+    }
+    
+    .cbutton{
+        height: 35px;
+        width: 20%;
+        border-radius: 10px;
+        padding: 5px;
+        color: black;
+        background: rgb(231, 198, 34);
+        outline: 0;
+        border: 0;
+        font-weight: 500;
+        cursor:pointer;
+        box-shadow: 2px 2px 2px 1px rgba(57, 44, 44, 0.509);
+        transition: background 10.5s ease; 
     }
   }
